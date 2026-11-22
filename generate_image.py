@@ -6,6 +6,20 @@ deterministic. Stories verified against world news wires for 21 Nov 2026:
 GTA VI's record $3.79bn first day, the AI stock sell-off, Anthropic's
 $2tn debut, the ICJ's Myanmar genocide ruling, the El Chapo Isidro
 capture in Mexico, the Kryvyi Rih missile strike, and COP31 overtime.
+
+Layout: a masthead with the date, a lead illustration of a Vice City
+sunset skyline for the GTA VI story with its headline and deck, then a
+grid of six panels (two rows of three), each with a small drawn
+illustration, a kicker, a headline and a one-line deck, and a footer
+strip of three further items. The lead is the day's biggest story by
+scale and reach, so it gets the full-width art and the largest headline;
+the six panels cover one story per field (economy, technology, justice,
+crime, conflict, climate) so the page reads as a world summary rather
+than a single-topic poster. Each panel illustration is a small drawn
+scene for its story (a falling chart, a blue chip, scales, a badge, a
+city under fire, a melting globe), so the page carries its meaning
+visually and not only in words. Every headline and deck is hand-wrapped
+with wrap_text so nothing is clipped or truncated at the image edges.
 """
 import math
 import random
